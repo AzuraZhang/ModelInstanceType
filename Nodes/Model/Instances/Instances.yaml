@@ -1,7 +1,2 @@
 Name: Instances
 Type: FolderType
-Children:
-- Name: VariableInstance
-  Type: Variable
-  DataType: String
-  Value: "#0000AA"

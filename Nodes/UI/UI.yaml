@@ -189,12 +189,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 70.0
+      Value: 40.0
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 50.0
+      Value: 60.0
   - Name: TextBox1
     Type: TextBox
     Children:
@@ -202,6 +202,17 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{NodeId:ns=7;g=672488cd-bdff-5828-f96a-2ca4ab30bc05}"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          ModellingRule: Optional
+          Value: 2
     - Name: Width
       Type: BaseVariableType
       DataType: Size
@@ -211,9 +222,9 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 220.0
+      Value: 165.0
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 110.0
+      Value: 60.0

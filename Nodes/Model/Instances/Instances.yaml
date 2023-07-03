@@ -1,2 +1,7 @@
 Name: Instances
 Type: FolderType
+Children:
+- Name: VariableInstance
+  Type: Variable
+  DataType: Int32
+  Value: 0

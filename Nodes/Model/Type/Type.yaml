@@ -1,2 +1,8 @@
 Name: Type
 Type: FolderType
+Children:
+- Name: Variable
+  Id: g=0d71b926a544ea994caa5f20b592c8b1
+  Supertype: BaseDataVariableType
+  DataType: Int32
+  Value: 0

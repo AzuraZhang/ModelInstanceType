@@ -50,3 +50,12 @@ Children:
     Type: BaseDataVariableType
     DataType: Int32
     Value: 0
+  - Name: Alias1
+    Type: Alias
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}

@@ -1,8 +1,9 @@
 Name: Type
 Type: FolderType
 Children:
-- Name: Object1
-  Type: BaseObjectType
+- Name: Object
+  Id: g=f017888f79b285cb4ca10ef2cb704006
+  Supertype: BaseObjectType
   Children:
   - Name: Name
     Type: BaseDataVariableType

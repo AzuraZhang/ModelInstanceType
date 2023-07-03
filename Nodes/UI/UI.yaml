@@ -146,18 +146,7 @@ Children:
       - Name: Text
         Type: BaseDataVariableType
         DataType: LocalizedText
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "{NodeId:ns=7;g=1e1ab6e9-4948-d95d-b123-c71184d82e4c}"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
+        Value: {"LocaleId":"en-US","Text":"LLLOW"}
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -172,7 +161,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 140.0
+        Value: 150.0
     - Name: Blower1
       Type: ScaleLayout
       WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel

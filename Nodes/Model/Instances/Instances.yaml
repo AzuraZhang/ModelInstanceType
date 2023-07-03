@@ -2,7 +2,6 @@ Name: Instances
 Type: FolderType
 Children:
 - Name: VariableInstance
-  Id: g=1e1ab6e94948d95db123c71184d82e4c
   Type: Variable
   DataType: String
   Value: "#0000AA"
